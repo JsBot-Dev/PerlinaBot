@@ -160,3 +160,6 @@ tmp/
 *.old
 *.orig
 *~
+
+# Bot Data Files
+/data

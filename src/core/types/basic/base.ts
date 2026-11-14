@@ -8,16 +8,17 @@ export interface PerlinaBotGroup {
     group_id: string
     group_name?: string
 }
+export type Platform = 'SnowLuma'
 export interface PerlinaBotPlatform {
-    id: string
+    type: Platform | (string & {})
     name: string
 }
 export type PerlinaBotSession =
     | {
-        type: 'Group'
-        group: PerlinaBotGroup
-    }
+          type: 'Group'
+          group: PerlinaBotGroup
+      }
     | {
-        type: 'Private'
-        user: PerlinaBotUser
-    }
+          type: 'Private'
+          user: PerlinaBotUser
+      }

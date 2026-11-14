@@ -1,4 +1,4 @@
-import type { PerlinaBotMessage } from '../message/segment'
+import type { PerlinaBotMessage } from '../message'
 import type { PerlinaBotGroup, PerlinaBotUser } from '../basic/base'
 import type { PerlinaBotBaseEvent } from './base'
 

@@ -6,5 +6,3 @@ export type PerlinaBotMessageSegment =
     | { type: 'reply'; message_id: string }
     | { type: 'file'; file: string; name?: string }
     | { type: 'unknown'; raw: unknown }
-
-export type PerlinaBotMessage = PerlinaBotMessageSegment[] | string

@@ -1,4 +1,4 @@
-import type { PerlinaBotPlatform } from "../basic"
+import type { PerlinaBotPlatform } from '../basic'
 
 export type PerlinaBotEventType = 'Message' | 'Notice' | 'Request' | 'Meta'
 export interface PerlinaBotBaseEvent<

@@ -37,6 +37,7 @@
         "skipLibCheck": true,
         "moduleResolution": "bundler",
         "paths": {
+            "@/*": ["./src/core/*"],
             "@/types/*": ["./src/core/types/*"]
         }
     },
