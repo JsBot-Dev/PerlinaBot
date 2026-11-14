@@ -1,0 +1,33 @@
+{
+    "name": "perlinabot",
+    "version": "0.1.0",
+    "description": "Next-generation cross-platform chatbot framework",
+    "keywords": [
+        "Bot",
+        "OneBot"
+    ],
+    "license": "AGPL-3.0-or-later",
+    "author": "J-SLY",
+    "type": "module",
+    "main": "src/app.ts",
+    "scripts": {
+        "test": "vitest",
+        "start": "tsx src/app.ts",
+        "dev": "tsx watch src/app.ts",
+        "format": "prettier --write .",
+        "format:check": "prettier --check .",
+        "check:type": "tsc --noEmit"
+    },
+    "dependencies": {
+        "@snowluma/sdk": "^2.4.2",
+        "@types/node": "^26.6.6",
+        "tsx": "^4.23.15",
+        "typescript": "^7.0.2",
+        "zod": "^4.6.7"
+    },
+    "devDependencies": {
+        "vitest": "^5.1.0",
+        "prettier": "^3.10.0",
+        "prettier-plugin-padding-lines": "^0.1.0"
+    }
+}

@@ -147,3 +147,16 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# Temp Files
+temp/
+tmp/
+*.tmp
+*.temp
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+*~
