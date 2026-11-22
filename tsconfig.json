@@ -37,9 +37,10 @@
         "skipLibCheck": true,
         "moduleResolution": "bundler",
         "paths": {
-            "@/*": ["./src/core/*"],
-            "@/types/*": ["./src/core/types/*"]
+            "@/*": ["./src"],
+            "@core/*": ["./src/core/*"]
         }
     },
-    "include": ["./src"]
+    "include": ["./src", "./test"],
+    "exclude": ["*.bak.*"]
 }

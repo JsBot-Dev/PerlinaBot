@@ -1,6 +1,6 @@
 {
     "name": "perlinabot",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "description": "Next-generation cross-platform chatbot framework",
     "keywords": [
         "Bot",
@@ -20,12 +20,14 @@
     },
     "dependencies": {
         "@types/node": "^26.6.6",
+        "fast-glob": "^3.3.3",
+        "js-yaml": "^5.5.0",
         "tsx": "^4.23.15",
         "typescript": "^7.0.2",
-        "zod": "^4.6.7",
-        "zod-v4-mocks": "^3.4.0"
+        "zod": "^4.6.7"
     },
     "devDependencies": {
+        "@types/js-yaml": "^4.0.9",
         "prettier": "^3.10.0",
         "prettier-plugin-padding-lines": "^0.1.0",
         "vitest": "^5.1.0"

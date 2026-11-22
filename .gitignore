@@ -155,6 +155,7 @@ tmp/
 *.temp
 
 # Backup files
+*.bak.*
 *.bak
 *.backup
 *.old
@@ -163,3 +164,4 @@ tmp/
 
 # Bot Data Files
 /data
+/src/plugin/external
