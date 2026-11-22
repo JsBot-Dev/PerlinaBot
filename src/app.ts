@@ -4,9 +4,9 @@ import { PerlinaBotPluginHost } from "@core/plugin/host";
 import { pluginLoader } from "@core/plugin/loader";
 
 const config = await configLoader('data/config/bot.config.yaml')
-const bunledPlugins = await pluginLoader('Bunled-Plugin')
+const bundledPlugins = await pluginLoader('Bundled-Plugin')
 const externalPlugins = await pluginLoader('External-Plugin')
-const host = new PerlinaBotPluginHost([...bunledPlugins, ...externalPlugins])
+const host = new PerlinaBotPluginHost([...bundledPlugins, ...externalPlugins])
 const Kernel = new PerlinaBotKernel({
     config: config,
     processor: host

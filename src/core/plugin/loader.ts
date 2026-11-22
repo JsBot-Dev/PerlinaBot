@@ -5,7 +5,7 @@ import { readYamlFile } from '@core/utils'
 import { PerlinaBotPluginMetaSchema, type PerlinaBotLoadedPlugin, type PerlinaBotPlugin, type PerlinaBotPluginType } from './types'
 
 async function searchPlugins(pluginType: PerlinaBotPluginType) {
-    const subDir = pluginType === 'Bunled-Plugin' ? 'bunled' : 'external'
+    const subDir = pluginType === 'Bundled-Plugin' ? 'bundled' : 'external'
     const files = await fg(`src/plugin/${subDir}/*/meta.yaml`, {
         absolute: true,
         onlyFiles: true,

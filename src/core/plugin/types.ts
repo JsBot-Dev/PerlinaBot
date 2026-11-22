@@ -12,5 +12,5 @@ export interface PerlinaBotLoadedPlugin {
     plugin: PerlinaBotPlugin
 }
 export type PerlinaBotPlugin = (ctx: PerlinaBotPluginContext) => void | Promise<void>
-export type PerlinaBotPluginType = 'Bunled-Plugin' | 'External-Plugin'
+export type PerlinaBotPluginType = 'Bundled-Plugin' | 'External-Plugin'
 export type PerlinaBotAdapter = (emit: (event: PerlinaBotEvent) => void) => void
